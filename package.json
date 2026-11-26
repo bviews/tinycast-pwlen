@@ -1,0 +1,14 @@
+{
+  "name": "pwlen",
+  "title": "密码生成器",
+  "description": "按长度生成六种密码",
+  "author": "local",
+  "icon": "icon.png",
+  "commands": [{
+    "name": "pwlen",
+    "title": "pwlen",
+    "description": "按长度生成密码，回车复制",
+    "mode": "view",
+    "arguments": [{"name": "length", "type": "text", "placeholder": "长度（默认 20）", "required": false}]
+  }]
+}
